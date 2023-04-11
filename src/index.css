@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.pop-up-window {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pop-up-box {
+  background: url(./pictures/confetti.png);
+  background-size: contain;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 70%;
+}
+
+.pop-up-box p {
+  background-color: rgb(255, 255, 255);
+  font-size: 40px;
+}
