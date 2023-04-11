@@ -52,7 +52,7 @@ function Board() {
       name: "frog",
       timesClicked: 0,
       src: frog,
-      description: "Forg in the rain",
+      description: "Frog in the rain",
     },
     { name: "swan", timesClicked: 0, src: swan, description: "Elegant swan" },
     { name: "cat", timesClicked: 0, src: cat, description: "Curious cat" },
@@ -68,12 +68,12 @@ function Board() {
       src: parrot,
       description: "Colorful parrot",
     },
-    { name: "dog2", timesClicked: 0, src: dog2, description: "Good boi" },
+    { name: "dog2", timesClicked: 0, src: dog2, description: "Good boy" },
     {
       name: "pigs",
       timesClicked: 0,
       src: pigs,
-      description: "Little piglet with his mom",
+      description: "Relaxing piglet",
     },
   ]);
 
@@ -106,7 +106,7 @@ function Board() {
       console.log(x, "x");
       if (x.timesClicked > 1) {
         setScore(0);
-        setMessage("You lost!");
+        setMessage("Sorry :( You lost!");
         if (highestScore < score) setHighestScore(score);
         setCards([
           ...cards.map((card) => {
@@ -141,7 +141,7 @@ function Board() {
         After each click, the cards are shuffled. To win you need to click on
         all the cards, but you can't click on the same card twice. Good luck!!!
       </p>
-      <div>
+      <div className="scores">
         <p>Your score: {score}</p>
         <p>Your highest score: {highestScore}</p>
         <p className="lose-message">{message}</p>
@@ -149,7 +149,7 @@ function Board() {
       <div className="board">
         <div className="pop-up-window">
           <div className="pop-up-box">
-            <p>Congratulations. You won!</p>
+            <p>Congratulations! You won!</p>
             <button onClick={restart}>Start again!</button>
           </div>
         </div>

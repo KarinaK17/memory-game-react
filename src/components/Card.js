@@ -2,11 +2,11 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div>
+    <div className="card">
       <img
         alt={props.name}
         src={props.src}
-        className="card"
+        className="card-image"
         onClick={() => {
           props.click(props.name);
         }}
