@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/memory-game-react/static/css/main.1b72efbe.css",
+    "main.js": "/memory-game-react/static/js/main.ba0840a3.js",
+    "static/media/confetti.png": "/memory-game-react/static/media/confetti.c200386a626f91c61f0a.png",
+    "static/media/frog.jpg": "/memory-game-react/static/media/frog.6f8cd835f229a777c6eb.jpg",
+    "static/media/cat.jpg": "/memory-game-react/static/media/cat.63866c9388be9dd92027.jpg",
+    "static/media/dog2.jpg": "/memory-game-react/static/media/dog2.1d8eefcd47eec869e28d.jpg",
+    "static/media/pigs.jpg": "/memory-game-react/static/media/pigs.7e672a4ef2b244bfb47a.jpg",
+    "static/media/butterfly.jpg": "/memory-game-react/static/media/butterfly.650cec09e14ebf9a3df2.jpg",
+    "static/media/monkey.jpg": "/memory-game-react/static/media/monkey.98b17727de3234f7154f.jpg",
+    "static/media/swan.jpg": "/memory-game-react/static/media/swan.587198b0abd38a19dcd8.jpg",
+    "static/media/chameleon.jpg": "/memory-game-react/static/media/chameleon.ab8aaf609108fca926e5.jpg",
+    "static/media/parrot.jpg": "/memory-game-react/static/media/parrot.6098641910a4c672b68d.jpg",
+    "static/media/giraffe.jpg": "/memory-game-react/static/media/giraffe.c782d05b3ea693009e23.jpg",
+    "static/media/fish.jpg": "/memory-game-react/static/media/fish.a60f5725f226b1426ce2.jpg",
+    "static/media/dog1.jpg": "/memory-game-react/static/media/dog1.a70309399adf07dc3a25.jpg",
+    "index.html": "/memory-game-react/index.html",
+    "main.1b72efbe.css.map": "/memory-game-react/static/css/main.1b72efbe.css.map",
+    "main.ba0840a3.js.map": "/memory-game-react/static/js/main.ba0840a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b72efbe.css",
+    "static/js/main.ba0840a3.js"
+  ]
+}
